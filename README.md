@@ -2,8 +2,6 @@ Setting up the project in your local repository
 
 First, install Node.js from http://nodejs.org 
 
-# VERSION DETAILS
- 
 node version: `6.9.2`
 npm version: `3.10.9`
 
