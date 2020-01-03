@@ -1,56 +1,21 @@
-# Prerequisites
+Setting up the project in your local repository
 
-Node.js and npm are essential to Angular 2 development.
+First, install Node.js from http://nodejs.org 
 
 # VERSION DETAILS
  
 node version: `6.9.2`
 npm version: `3.10.9`
 
-Get it now if it's not already installed on your machine.
 
-**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
-by running `node -v` and `npm -v` in a terminal/console window.
-Older versions produce errors.
+After this is complete, open command-line (Cmd) and navigate to the root of the project.
 
+Install Grunt cmd tool: ```shell npm install -g grunt-cli```
 
-## Create a new project based on the QuickStart
+Install Bower package manager: ```shell npm install -g bower```
 
-Clone this repo into new project folder (e.g., `my-proj`).
-```shell
-git clone https://github.com/angular/quickstart  my-proj
-cd my-proj
-```
+Install all grunt tasks: ```shell Run - npm install```
 
+This will install all dependencies (JS libraries): ```shell Run - bower install```
 
-## Install npm packages
-
-> See npm and nvm version notes above
-
-Install the npm packages described in the `package.json` and verify that it works:
-
-```shell
-npm install
-npm start
-```
-
->Doesn't work in _Bash for Windows_ which does not support servers as of January, 2017.
-
-The `npm start` command first compiles the application, 
-then simultaneously re-compiles and runs the `lite-server`.
-Both the compiler and the server watch for file changes.
-
-Shut it down manually with `Ctrl-C`.
-
-You're ready to write your application.
-
-### npm scripts
-
-We've captured many of the most useful commands in npm scripts defined in the `package.json`:
-
-* `npm start` - runs the compiler and a server at the same time, both in "watch mode".
-* `npm run build` - runs the TypeScript compiler once.
-* `npm run build:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
-* `npm run serve` - runs the [lite-server](https://www.npmjs.com/package/lite-server), a light-weight, static file server, written and maintained by
-
-
+You should be good to go once these operations are completed (It could take time as the checkout happens from external server
