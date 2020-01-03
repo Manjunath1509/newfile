@@ -4,8 +4,8 @@ Node.js and npm are essential to Angular 2 development.
 
 # VERSION DETAILS
  
-**node version: 6.9.2
-**npm version: 3.10.9
+node version: `6.9.2`
+npm version: `3.10.9`
 
 Get it now if it's not already installed on your machine.
 
